@@ -1,0 +1,35 @@
+baseurl = "http://movestore.netlify.com"
+languageCode = "en"
+title = "moveStore"
+copyright = "GPL v3"
+paginate = 3
+
+#googleAnalytics = "Yout Google Analytics ID"
+
+theme = "minimage"
+
+[params]
+  description = "moveStore is a platform to share Apps that work with movement data and developed by Shiny in R environment."
+  author = "Babak Naimi"
+  logo = '/image/logo.png'
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.global]]
+    name = "Development"
+    url = "/categories/Development/"
+
+[[menu.global]]
+    name = "golang"
+    url = "/categories/golang/"
+
+[[menu.footer]]
+    name = "About"
+    url = "/page/about/"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

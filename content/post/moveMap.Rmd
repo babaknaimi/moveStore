@@ -1,0 +1,16 @@
+---
+title: "moveMap"
+author: "Babak Naimi"
+date: "5/5/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Application name: moveMapp 
+
+This app visualise movement data (e.g., those obtained from movebank).
+
+
